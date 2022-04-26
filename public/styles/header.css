@@ -1,0 +1,27 @@
+/*
+* Header 
+*/
+
+header {
+  height: 400px;
+  width: 100%;
+  background-image: url("../images/asfalt-light.png");
+  background-color:  #7F6D8E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header img {
+  margin-top: 120px;
+  width: 190px;
+  height: auto;
+}
+
+header h2 {
+  margin-top: 0px;
+  color: white;
+}
+
+

@@ -1,0 +1,35 @@
+
+/*
+* Main Navigation
+*/
+
+nav {
+  background-color: #4056A1;
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  
+}
+/*  Tweeter title */
+.brandTitle {
+  font-family: 'Bungee', sans-serif;
+  margin-left: 1.5em;
+  margin-top: 50px;
+}
+
+/* "Write a new tweet" text */
+nav div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5em;
+  margin-top: 50px;
+}
+
+/* Arrow icon */
+nav i {
+  color: red;
+  text-align: center;
+}
