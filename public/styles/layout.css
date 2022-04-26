@@ -30,8 +30,3 @@ body {
    margin: 0 auto;
    background-color: #f4f1ec;
  }
-
- /* Solid border */
-hr.solid {
-  border-top: 3px solid #545149;
-}

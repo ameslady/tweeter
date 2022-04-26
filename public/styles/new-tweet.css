@@ -1,0 +1,33 @@
+.new-tweet {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.new-tweet label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.new-tweet textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid #545149;
+  height: 38px;
+  width: 700px;
+} 
+
+.new-tweet button {
+  font-family: 'Bungee', sans-serif;
+  background-color: #2F2B34;
+  color: white;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.counter {
+  position: absolute;
+  font-family: 'Bungee', sans-serif;
+  color: #2F2B34;
+  font-style: bold;
+}
