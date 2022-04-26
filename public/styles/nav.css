@@ -4,7 +4,7 @@
 */
 
 nav {
-  background-color: #4056A1;
+  background-color: #2F2B34;
   position: absolute;
   height: 120px;
   width: 100%;
@@ -13,11 +13,13 @@ nav {
   justify-content: space-between;
   
 }
+
 /*  Tweeter title */
 .brandTitle {
   font-family: 'Bungee', sans-serif;
-  margin-left: 1.5em;
+  margin-left: 1em; /* reduced slightly to compensate for font-size */
   margin-top: 50px;
+  font-size: 35px;
 }
 
 /* "Write a new tweet" text */
@@ -30,6 +32,6 @@ nav div {
 
 /* Arrow icon */
 nav i {
-  color: red;
+  color: turquoise;
   text-align: center;
 }

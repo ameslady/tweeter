@@ -5,8 +5,8 @@
 header {
   height: 400px;
   width: 100%;
-  background-image: url("../images/asfalt-light.png");
-  background-color:  #7F6D8E;
+  background-image: url("../images/gplay.png");
+  background-color: #BA5D92;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-  margin-top: 120px;
+  margin-top: 140px;
   width: 190px;
   height: auto;
 }
