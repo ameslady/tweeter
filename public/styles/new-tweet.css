@@ -1,7 +1,11 @@
-.new-tweet {
-  display: flex;
-  justify-content: center;
+
+.new-tweet  {
   margin-top: 2em;
+}
+
+.new-tweet div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .new-tweet label {
@@ -13,7 +17,7 @@
   background: transparent;
   border: none;
   border-bottom: 4px solid #545149;
-  height: 38px;
+  height: 37px;
   width: 700px;
 } 
 
@@ -26,7 +30,6 @@
 }
 
 .counter {
-  position: absolute;
   font-family: 'Bungee', sans-serif;
   color: #2F2B34;
   font-style: bold;
