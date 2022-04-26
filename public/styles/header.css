@@ -6,7 +6,7 @@ header {
   height: 400px;
   width: 100%;
   background-image: url("../images/gplay.png");
-  background-color: #BA5D92;
+  background-color: #BA5D92; 
   display: flex;
   align-items: center;
   justify-content: center;
