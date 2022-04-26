@@ -4,14 +4,16 @@ $(document).ready(function() {
   const total = Number($(".counter").html());
 
   textarea.on('keyup', function() {
-    const count = $(this).val().length;
-    const remaining = total - count;
+    const valueLength = $(this).val().length;
+    const output = $(this).parent().find(".counter");
+    const remaining = total - valueLength;
 
-    // use this keyword to get counter ?
-    $(".counter").html(String(remaining));
+    output.html(String(remaining))
 
     if (remaining < 0) {
-      $(".counter").css("color", "red")
+      output.css("color", "red")
+    } else {
+      output.css("color", "#2F2B34")
     }
   });
 });
