@@ -35,3 +35,19 @@ nav i {
   color: turquoise;
   text-align: center;
 }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  50% {
+      transform: translateY(-15px);
+    }
+  }
