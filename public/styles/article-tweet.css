@@ -1,6 +1,6 @@
 /* TWEET CARD STYLING */
 
-.article-tweet {
+.tweet {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #2F2B34;
   color: white;
@@ -10,23 +10,23 @@
 }
 
 /* Tweet Card Hover */
-.article-tweet:hover {
+.tweet:hover {
   box-shadow: 10px 5px 5px lightgray; 
 }
 
-/*  Article Header  */
-.article-tweet header {
+/*  Tweet Card Header  */
+.tweet header {
   display: flex;
   justify-content: space-between;
 }
 
-/* Article Divider */
-.article-tweet hr {
+/* Tweet Card Divider */
+.tweet hr {
   border-top: 3px solid white;
 }
 
-/* Ariticle Footer */
-.article-tweet footer {
+/* Tweet Card Footer */
+.tweet footer {
   display: flex;
   justify-content: space-between;
   font-size: 15px;
@@ -36,13 +36,13 @@
 }
 
 /* User Name */
-.article-tweet .name {
+.name {
   font-weight: 300;
   margin-left: 5px;
 }
 
 /* User Handle */
-.tweeterHandle {
+.handle {
   font-weight: 400;
   color: turquoise;
 }
@@ -59,5 +59,6 @@
 }
 
 .fa-flag:hover, .fa-retweet:hover, .fa-heart:hover {
-  color:aqua;
+  color: #D29FFF; 
+  
 }
