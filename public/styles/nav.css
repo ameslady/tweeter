@@ -3,13 +3,14 @@
 
 nav {
   background-color: #2F2B34;
-  position: absolute;
   height: 120px;
   width: 100%;
   color: white;
   display: flex;
   justify-content: space-between;
-  
+  position: fixed;
+  top:0;
+  width: 100%;
 }
 
 /*  Tweeter title */
