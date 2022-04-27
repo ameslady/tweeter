@@ -5,15 +5,28 @@
   padding: 1em;
 }
 
+.article-tweet:hover {
+  box-shadow: 10px 5px 5px lightgray; 
+}
+
 /*  Article Header  */
 .article-tweet header {
   display: flex;
   justify-content: space-between;
 }
 
-/* User Icon */
-.fa-solid.fa-user-astronaut {
-  font-size: 30px;
+/* Article Divider */
+.article-tweet hr {
+  border-top: 4px solid #545149;
+}
+
+/* Ariticle Footer */
+.article-tweet footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 /* User's Name */
@@ -32,14 +45,11 @@
   margin-left: 1em;
 }
 
-/* Article Divider */
-.article-tweet hr {
-  border-top: 4px solid #545149;
+/* Icons */
+.fa-user-astronaut {
+  font-size: 30px;
 }
 
-/* Ariticle Footer */
-.article-tweet footer {
-  display: flex;
-  justify-content: space-between;
-  font-size: 15px;
+.fa-flag:hover, .fa-retweet:hover, .fa-heart:hover {
+  color:aqua;
 }
