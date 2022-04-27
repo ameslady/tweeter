@@ -1,7 +1,5 @@
 
-/*
-* Main Navigation
-*/
+/* Main Navigation */
 
 nav {
   background-color: #2F2B34;
@@ -24,6 +22,7 @@ nav {
 
 /* "Write a new tweet" text */
 nav div {
+  font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   flex-direction: column;
   margin-right: 1.5em;

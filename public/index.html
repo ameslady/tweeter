@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/footer.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/all-tweets.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -55,10 +57,38 @@
           <textarea type="text" name="text" id="tweet-text"></textarea>
           <div>
             <button type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text">10</output>
+            <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>
       </section>
+      <br>
+      <section class="all-tweets">
+        <article>
+          <div>
+            <i class="fa-regular fa-face-grin-hearts"></i>
+            <span>Decartes</span>
+            <span>@SirIsaac</span>
+          </div>
+    
+          <p>Je pense, donc je suis</p>
+          <hr class="solid">
+
+          <div> 
+            <span>10 days ago</span>
+            <i class="fa-regular fa-flag"></i>
+            <i class="fa-solid fa-retweet"></i>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </article>
+      </section>
+
     </main>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        © 2022 Tweeter
+      </div>
+    </footer>
   </body>
 </html>

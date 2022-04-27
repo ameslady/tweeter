@@ -1,13 +1,4 @@
 
-.new-tweet  {
-  margin-top: 2em;
-}
-
-.new-tweet div {
-  display: flex;
-  justify-content: space-between;
-}
-
 .new-tweet label {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
@@ -18,8 +9,13 @@
   border: none;
   border-bottom: 4px solid #545149;
   height: 37px;
-  width: 700px;
+  width: 900px;
 } 
+
+.new-tweet div {
+  display: flex;
+  justify-content: space-between;
+}
 
 .new-tweet button {
   font-family: 'Bungee', sans-serif;
