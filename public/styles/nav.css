@@ -1,5 +1,5 @@
 
-/* Main Navigation */
+/* MAIN NAVIGATION STYLING */
 
 nav {
   background-color: #2F2B34;
@@ -13,15 +13,15 @@ nav {
   width: 100%;
 }
 
-/*  Tweeter title */
+/*  Tweeter Title */
 .brandTitle {
   font-family: 'Bungee', sans-serif;
-  margin-left: 1em; /* reduced slightly to compensate for font-size */
+  margin-left: 1em; 
   margin-top: 50px;
   font-size: 35px;
 }
 
-/* "Write a new tweet" text */
+/* "Write a new tweet" Text */
 nav div {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
@@ -30,12 +30,13 @@ nav div {
   margin-top: 50px;
 }
 
-/* Arrow icon */
+/* Arrow Icon */
 nav i {
   color: turquoise;
   text-align: center;
 }
 
+/* Arrow Icon Animation */
 .arrow {
   text-align: center;
   margin: 6% 0;

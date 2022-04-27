@@ -1,27 +1,29 @@
+/* NEW TWEET STYLING  */
 
-.new-tweet label {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
-}
-
+/* "Compose Tweet" Heading  */
 .new-tweet h2 {
   font-family: 'Bungee', sans-serif;
 }
 
+/* Tweet Input Field  */
 .new-tweet textarea {
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  height: 37px;
+  width: 900px;
   background: transparent;
   border: none;
   border-bottom: 4px solid #2F2B34;
-  height: 37px;
-  width: 900px;
 } 
 
+/* Button & Word Count Spacing */
 .new-tweet div {
   display: flex;
   justify-content: space-between;
 }
 
+/* Tweet Button */
 .new-tweet button {
   font-family: 'Bungee', sans-serif;
   font-size: 15px;
@@ -32,6 +34,7 @@
   padding: 7px;
 }
 
+/* Tweet Word Count */
 .counter {
   font-family: 'Bungee', sans-serif;
   font-style: bold;

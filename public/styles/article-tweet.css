@@ -1,9 +1,11 @@
+/* TWEET CARD STYLING */
+
 .article-tweet {
   font-family: 'Source Sans Pro', sans-serif;
-  width: 900px;
   background-color: #2F2B34;
   color: white;
   border-radius: 5px;
+  width: 900px;
   padding: 1em;
 }
 
@@ -28,24 +30,27 @@
   display: flex;
   justify-content: space-between;
   font-size: 15px;
+  font-weight: 300;
   margin-right: 1em;
   margin-left: 1em;
 }
 
-/* User's Name */
-.name {
+/* User Name */
+.article-tweet .name {
+  font-weight: 300;
   margin-left: 5px;
 }
 
-/* User's handle */
+/* User Handle */
 .tweeterHandle {
+  font-weight: 400;
   color: turquoise;
 }
 
-/*  Tweet Contents */
+/* Tweet Contents */
 .content {
   margin-left: 1em;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* Icons */

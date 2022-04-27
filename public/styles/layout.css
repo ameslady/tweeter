@@ -10,7 +10,7 @@ html {
   box-sizing: inherit;
 }
 
-/* Global layout stuff */
+/* Global Layout */
 
 body {
   color: #2F2B34;
@@ -20,12 +20,12 @@ body {
   margin: 0;
 }
 
-/* Additional CSS can be defined below or in other CSS files, as per instructions */
+/* Main Layout */
 
 main {
   width: 90vw;
   margin: 0 auto;
-  padding: 2em 5em;
+  padding: 25px 0px 100px;
   display: flex;
   align-items: center;
   flex-direction: column;
