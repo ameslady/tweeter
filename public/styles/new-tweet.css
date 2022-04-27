@@ -4,11 +4,15 @@
   font-weight: bold;
 }
 
+.new-tweet h2 {
+  font-family: 'Bungee', sans-serif;
+}
+
 .new-tweet textarea {
   font-family: 'Source Sans Pro', sans-serif;
   background: transparent;
   border: none;
-  border-bottom: 4px solid #545149;
+  border-bottom: 4px solid #2F2B34;
   height: 37px;
   width: 900px;
 } 
@@ -21,15 +25,15 @@
 .new-tweet button {
   font-family: 'Bungee', sans-serif;
   font-size: 15px;
-  background-color: #2F2B34;
   color: white;
+  background-color: turquoise;
+  border: 2px solid #2F2B34;
   border-radius: 4px;
-  padding: 6px;
+  padding: 7px;
 }
 
 .counter {
   font-family: 'Bungee', sans-serif;
-  color: #2F2B34;
   font-style: bold;
 }
 
