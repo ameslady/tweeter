@@ -1,0 +1,45 @@
+.article-tweet {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 900px;
+  border: 4px solid #545149;
+  padding: 1em;
+}
+
+/*  Article Header  */
+.article-tweet header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* User Icon */
+.fa-solid.fa-user-astronaut {
+  font-size: 30px;
+}
+
+/* User's Name */
+.name {
+  margin-left: 5px;
+}
+
+/* User's handle */
+.tweeterHandle {
+  color: #D3AEE9;
+  font-weight: bold;
+}
+
+/*  Tweet Contents */
+.content {
+  margin-left: 1em;
+}
+
+/* Article Divider */
+.article-tweet hr {
+  border-top: 4px solid #545149;
+}
+
+/* Ariticle Footer */
+.article-tweet footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/footer.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/all-tweets.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/article-tweet.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -39,7 +39,7 @@
 
 
   <!-- Header -->
-    <header>
+    <header id="Header">
       <div>
           <img src="/images/profile-hex.png"> 
       </div>
@@ -62,33 +62,39 @@
         </form>
       </section>
       <br>
-      <section class="all-tweets">
+
+      <section class="article-tweet">
         <article>
-          <div>
-            <i class="fa-regular fa-face-grin-hearts"></i>
-            <span>Decartes</span>
-            <span>@SirIsaac</span>
-          </div>
+          <header>
+            <div>
+              <i class="fa-solid fa-user-astronaut"></i>
+              <span class="name">Decartes</span>
+            </div>
+            <span class="tweeterHandle">@SirIsaac</span>
+          </header>
     
-          <p>Je pense, donc je suis</p>
+          <p class="content">Je pense, donc je suis</p>
           <hr class="solid">
 
-          <div> 
+          <footer> 
             <span>10 days ago</span>
-            <i class="fa-regular fa-flag"></i>
-            <i class="fa-solid fa-retweet"></i>
-            <i class="fa-regular fa-heart"></i>
-          </div>
+            <div>
+              <i class="fa-regular fa-flag"></i>
+              <i class="fa-solid fa-retweet"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </footer>
+
         </article>
       </section>
-
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer id="Footer">
       <div>
         © 2022 Tweeter
       </div>
     </footer>
+
   </body>
 </html>

@@ -1,8 +1,6 @@
-/*
-* Header 
-*/
+/* Header */
 
-header {
+#Header {
   height: 400px;
   width: 100%;
   background-image: url("../images/gplay.png");
@@ -13,13 +11,13 @@ header {
   flex-direction: column;
 }
 
-header img {
+#Header img {
   margin-top: 140px;
   width: 190px;
   height: auto;
 }
 
-header h2 {
+#Header h2 {
   margin-top: 0px;
   color: white;
 }
