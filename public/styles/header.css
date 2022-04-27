@@ -4,6 +4,7 @@
   height: 400px;
   width: 100%;
   background-image: url("../images/gplay.png");
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #BA5D92; 
   display: flex;
   align-items: center;
