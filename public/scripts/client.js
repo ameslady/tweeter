@@ -6,6 +6,7 @@
 
 $(document).ready(function() {
 
+  // AJAX Get Request
 const loadTweets = function() {
   $.ajax('/tweets', { method: 'GET' })
     .then(function (tweets) {
@@ -14,9 +15,11 @@ const loadTweets = function() {
 };
 
 const renderTweets = function(tweets) {
+  $('#tweets-container').html('');
+
   for (const tweet of tweets) {
    const $tweet = createTweetElement(tweet);
-    $('#tweets-container').append($tweet); 
+    $('#tweets-container').prepend($tweet); 
   }
 };
 
@@ -48,6 +51,30 @@ const createTweetElement = function(tweetObj) {
 
   return $tweetHtml;
 };
+
+// AJAX Post Request
+$( "#form" ).submit(function(event) {
+  event.preventDefault();
+
+  const input = $('#tweet-text').val();
+
+  if (input === '') {
+    alert("How dare thee submit a blank tweet!")
+  } else if (input.length > 140) {
+    alert("Thy tweet is too long!")
+  } else {
+    $.ajax({
+      type: "POST",
+      url: "/tweets",
+      data: $(this).serialize(),
+      success: function() {
+        $('#tweet-text').val('');
+        $('.counter').val(140);
+        loadTweets();
+      }
+    })
+  }
+});
 
 loadTweets();
 
