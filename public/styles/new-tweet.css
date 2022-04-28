@@ -34,6 +34,11 @@
   padding: 7px;
 }
 
+.new-tweet button:hover {
+  box-shadow: 0px 5px 10px lightgray;
+  transform: translateY(-1px);
+}
+
 /* Tweet Word Count */
 .counter {
   font-family: 'Bungee', sans-serif;

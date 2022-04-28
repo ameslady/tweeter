@@ -25,6 +25,7 @@
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+    <script type="text/javascript" src="/scripts/submit-tweet.js"></script>
   </head>
 
   <body>
@@ -55,7 +56,7 @@
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
-        <form method="POST" action="/tweets">
+        <form id="form">
           <textarea type="text" name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
           <div>
             <button type="submit">Tweet</button>
@@ -67,51 +68,7 @@
       <br>
 
       <section id="tweets-container">
-        <article class="tweet">
-          <header>
-            <div>
-              <i class="fa-solid fa-user-astronaut"></i>
-              <span class="name">Decartes</span>
-            </div>
-            <span class="handle">@rd</span>
-          </header>
-    
-          <p class="content">Je pense, donc je suis</p>
-          <hr class="solid">
-
-          <footer> 
-            <span class="createdDate">10 days ago</span>
-            <div>
-              <i class="fa-solid fa-flag"></i>
-              <i class="fa-solid fa-retweet"></i>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </footer>
-        </article>
-
-        <!-- <br>
-
-        <article class="tweet">
-          <header>
-            <div>
-              <i class="fa-solid fa-user-astronaut"></i>
-              <span class="name">Newton</span>
-            </div>
-            <span class="handle">@SirIsaac</span>
-          </header>
-    
-          <p class="content">If I have seen further it is by standing on the shoulders of giants</p>
-          <hr class="solid">
-
-          <footer> 
-            <span class="createdDate">1 month ago</span>
-            <div>
-              <i class="fa-solid fa-flag"></i>
-              <i class="fa-solid fa-retweet"></i>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </footer>
-        </article> -->
+        <!-- rendered tweets go here -->
       </section>
     </main>
 
