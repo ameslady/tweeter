@@ -59,10 +59,13 @@ $( "#form" ).submit(function(event) {
   const input = $('#tweet-text').val();
 
   if (input === '') {
-    alert("How dare thee submit a blank tweet!")
+    $(".alert").html("Error: How dare thee submit a blank tweet!");
+    $(".alert").removeClass("hidden");
   } else if (input.length > 140) {
-    alert("Thy tweet is too long!")
+    $(".alert").html("Error: Thy tweet is too long!");
+    $(".alert").removeClass("hidden").slideDown();
   } else {
+    $(".alert").addClass("hidden");
     $.ajax({
       type: "POST",
       url: "/tweets",
