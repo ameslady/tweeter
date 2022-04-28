@@ -60,10 +60,10 @@ $( "#form" ).submit(function(event) {
 
   if (input === '') {
     $(".errorMessage").html("Error: How dare thee submit a blank tweet!");
-    $(".alert").removeClass("hidden");
+    $(".alert").slideDown(1000).removeClass("hidden");
   } else if (input.length > 140) {
     $(".errorMessage").html("Error: Your tweet is too long! 140 characters max.");
-    $(".alert").removeClass("hidden");
+    $(".alert").slideDown(1000).removeClass("hidden");
   } else {
     $(".alert").addClass("hidden");
     $.ajax({

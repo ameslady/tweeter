@@ -1,0 +1,138 @@
+main {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 25px 0px 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+
+/* Error Message */
+.alert {
+  display: block !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  background-color: rgb(241, 153, 153);
+  color: white;
+  border-left: 5px solid red;
+  padding: 7px;
+  width: 900px;
+}
+.alert.hidden {
+ display: none !important;
+}
+
+/* NEW TWEET STYLING  */
+
+/* "Compose Tweet" Heading  */
+.new-tweet h2 {
+  font-family: 'Bungee', sans-serif;
+}
+
+/* Tweet Input Field  */
+.new-tweet textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  height: 37px;
+  width: 900px;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid #2F2B34;
+} 
+
+/* Button & Word Count Spacing */
+.new-tweet div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Tweet Button */
+.new-tweet button {
+  font-family: 'Bungee', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: turquoise;
+  border: 2px solid #2F2B34;
+  border-radius: 4px;
+  padding: 7px;
+}
+.new-tweet button:hover {
+  box-shadow: 0px 5px 10px lightgray;
+  transform: translateY(-1px);
+}
+
+/* Tweet Word Count */
+.counter {
+  font-family: 'Bungee', sans-serif;
+  font-style: bold;
+}
+.red {
+  color: red;
+}
+
+/* TWEET CARD STYLING */
+
+.tweet {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #2F2B34;
+  color: white;
+  border-radius: 5px;
+  width: 900px;
+  padding: 1em;
+}
+
+/* Tweet Card Hover */
+.tweet:hover {
+  box-shadow: 10px 5px 5px lightgray; 
+}
+
+/*  Tweet Card Header  */
+.tweet header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Tweet Card Divider */
+.tweet hr {
+  border-top: 3px solid white;
+}
+
+/* Tweet Card Footer */
+.tweet footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 300;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+/* User Name */
+.tweet.name {
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+/* User Handle */
+.tweet.handle {
+  font-weight: 400;
+  color: turquoise;
+}
+
+/* Tweet Contents */
+.tweet.content {
+  margin-left: 1em;
+  font-weight: 400;
+}
+
+/* User Icons */
+.fa-user-astronaut {
+  font-size: 30px;
+}
+
+/* Social Icons */
+.fa-flag:hover, .fa-retweet:hover, .fa-heart:hover {
+  color: #D29FFF; 
+  
+}
