@@ -6,7 +6,7 @@
 
 $(document).ready(function() {
 
-  // AJAX Get Request
+// AJAX Get Request
 const loadTweets = function() {
   $.ajax('/tweets', { method: 'GET' })
     .then(function (tweets) {
@@ -14,6 +14,7 @@ const loadTweets = function() {
     });
 };
 
+// Prepends rendered tweets to html selement
 const renderTweets = function(tweets) {
   $('#tweets-container').html('');
 
@@ -22,7 +23,7 @@ const renderTweets = function(tweets) {
     $('#tweets-container').prepend($tweet); 
   }
 };
-
+// Creates Tweet Markup
 const createTweetElement = function(tweetObj) {
   let $tweetHtml = `
     <br>
