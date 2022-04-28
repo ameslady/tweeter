@@ -20,6 +20,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## To-do
 
-*
-*
-*
+* Deal with XXS
+* Implement slideUp() and slideDown() for errorr message
+* Clean up CSS styling
