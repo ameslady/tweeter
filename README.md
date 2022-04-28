@@ -21,5 +21,5 @@ This repository is the starter code for the project: Students will fork and clon
 ## To-do
 
 * Deal with XXS
-* Implement slideUp() and slideDown() for errorr message (a bit jumpy)
+* Fix jankyness of slideUp() and slideDown() for error msg
 * Clean up CSS styling
