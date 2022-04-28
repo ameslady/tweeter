@@ -59,11 +59,11 @@ $( "#form" ).submit(function(event) {
   const input = $('#tweet-text').val();
 
   if (input === '') {
-    $(".alert").html("Error: How dare thee submit a blank tweet!");
-    $(".alert").removeClass("hidden");
+    $(".errorMessage").html("Error: How dare thee submit a blank tweet!");
+    $(".alert").removeClass("hidden").slideDown(1000);
   } else if (input.length > 140) {
-    $(".alert").html("Error: Thy tweet is too long!");
-    $(".alert").removeClass("hidden").slideDown();
+    $(".errorMessage").html("Error: Thy tweet is too long! 140 characters max.");
+    $(".alert").removeClass("hidden").slideDown(1000);
   } else {
     $(".alert").addClass("hidden");
     $.ajax({
