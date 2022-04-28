@@ -6,6 +6,13 @@
 
 $(document).ready(function() {
 
+const loadTweets = function() {
+  $.ajax('/tweets', { method: 'GET' })
+    .then(function (tweets) {
+      renderTweets(tweets);
+    });
+};
+
 const renderTweets = function(tweets) {
   for (const tweet of tweets) {
    const $tweet = createTweetElement(tweet);
@@ -29,7 +36,7 @@ const createTweetElement = function(tweetObj) {
       <hr class="solid">
 
       <footer> 
-        <span class="createdDate">${daysSince(tweetObj.created_at)}</span>
+        <span class="createdDate">${timeago.format(tweetObj.created_at)}</span>
         <div>
           <i class="fa-solid fa-flag"></i>
           <i class="fa-solid fa-retweet"></i>
@@ -40,20 +47,6 @@ const createTweetElement = function(tweetObj) {
     `;
 
   return $tweetHtml;
-};
-
-const daysSince = function(date) {
-  const today = new Date();
-  const createdDate = new Date(date);
-  const difference = (today.getTime() - createdDate.getTime()) / (1000 * 3600 * 24);
-  return `${Math.round(difference)} days ago`;
-};
-
-const loadTweets = function() {
-  $.ajax('/tweets', { method: 'GET' })
-    .then(function (tweets) {
-      renderTweets(tweets);
-    });
 };
 
 loadTweets();
