@@ -26,6 +26,8 @@ This repository is the starter code for the project: Students will fork and clon
 4. Go to <http://localhost:8080/> in your browser.
 
 
-## To-do
+## Roadmap
 
-* Complete stretch tasks
+* Implement LHL stretch tasks
+* Make the social buttons work 
+* Improve error message styling
