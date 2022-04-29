@@ -1,0 +1,40 @@
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  nav {
+    background-color: #2F2B34;
+    position: fixed;
+    top: 0;
+    margin:0;
+   }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
+   }
+  
+  #header {
+    border: 2px solid #2F2B34;
+    border-radius: 5px;
+    /* min-width:  */
+    margin: 60px 60px;
+    padding: 20px 0px 100px;
+    display: flex;
+    flex-shrink: 3;
+   }
+
+  main {
+    display: relative;
+    margin-right: 60px;
+    /* width: 100%; */
+   } 
+
+  .new-tweet {
+    width: 100%;
+  }
+
+  #tweets-container {
+    width: 100%;
+  }
+
+}
