@@ -10,7 +10,7 @@ nav {
   width: 100%;
 }
 
-/*  Navigation Title */
+/*  navigation title */
 .navTitle {
   font-family: 'Bungee', sans-serif;
   margin-left: 1em; 
@@ -18,7 +18,7 @@ nav {
   font-size: 35px;
 }
 
-/* "Write a new tweet" Text */
+/* "write a new tweet" text */
 nav div {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
@@ -27,13 +27,12 @@ nav div {
   margin-top: 50px;
 }
 
-/* Arrow Icon */
+/* arrow icon */
 nav i {
   color: turquoise;
   text-align: center;
 }
 
-/* Arrow Icon Animation */
 .arrow {
   text-align: center;
   margin: 6% 0;

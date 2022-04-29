@@ -9,7 +9,6 @@ This repository is the starter code for the project: Students will fork and clon
 ![Mobile View ](public/docs/desktop.png?raw=true "Desktop View")
 ![Desktop View](public/docs/mobile.png?raw=true "Mobile View")
 
-
 ## Dependencies
 
 - Node.js
@@ -31,8 +30,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 * Deal with XXS
 * Fix jankyness of slideUp() and slideDown() for error msg
-* Clean up CSS styling
 * Pin footer to bottom, hide until scroll down
 * Make error message appear under textarea
 * Maintain heart button colour when clicked
-* Do stretch (if you feel like it)
+* Do stretch tasks

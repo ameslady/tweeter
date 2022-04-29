@@ -1,4 +1,4 @@
-
+// reduces char count
 $(document).ready(function() {
   const textarea = $("#tweet-text");
   const total = $(".counter").html();

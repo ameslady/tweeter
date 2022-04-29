@@ -8,37 +8,44 @@ main {
   flex-direction: column;
  }
 
-/* Error Message */
+/* error message */
 .alert {
+  display: block !important;
   font-weight: 400;
   background-color: rgb(241, 153, 153);
   color: white;
   border-left: 5px solid red;
   border-radius: 5px;
   padding: 7px;
-  margin-bottom: 15px;
-  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+  animation: shake .1s linear;
+  animation-iteration-count: 3;
 }
 
 .alert.hidden {
  display: none !important;
 }
 
-/* NEW TWEET STYLING  */
+@keyframes shake {
+  0% { left: -5px; }
+  100% { right: -5px; }
+}
+
+/* -- New Tweet Styling --  */
 
 .new-tweet {
   width: 100%
 }
 
-/* Compose Tweet Heading  */
+/* compose tweet heading  */
 .new-tweet h2 {
   font-family: 'Bungee', sans-serif;
 }
 
-/* Tweet Input Field  */
+/* tweet input field  */
 .new-tweet textarea {
   font-weight: 300;
-  font-style: italic;
   height: 37px;
   width: 100%;
   background: transparent;
@@ -46,13 +53,13 @@ main {
   border-bottom: 4px solid #2F2B34;
 } 
 
-/* Button & Word Count Spacing */
+/* button & word count spacing */
 .new-tweet div {
   display: flex;
   justify-content: space-between;
 }
 
-/* Tweet Button */
+/* tweet button */
 .new-tweet button {
   font-family: 'Bungee', sans-serif;
   font-size: 15px;
@@ -68,7 +75,7 @@ main {
   transform: translateY(-1px);
 }
 
-/* Tweet Word Count */
+/* tweet word count */
 .counter {
   font-family: 'Bungee', sans-serif;
   font-style: bold;
@@ -78,7 +85,7 @@ main {
   color: red;
 }
 
-/* TWEET CARD STYLING */
+/* -- Tweet Card Styling -- */
 
 #tweets-container {
   width: 100%;
@@ -91,23 +98,23 @@ main {
   padding: 1em;
 }
 
-/* Tweet Card Hover */
+/* tweet card hover */
 .tweet:hover {
   box-shadow: 10px 5px 5px lightgray; 
 }
 
-/*  Tweet Card Header  */
+/*  tweet card header  */
 .tweet header {
   display: flex;
   justify-content: space-between;
 }
 
-/* Tweet Card Divider */
+/* tweet card divider */
 .tweet hr {
   border-top: 3px solid white;
 }
 
-/* Tweet Card Footer */
+/* tweet card footer */
 .tweet footer {
   display: flex;
   justify-content: space-between;
@@ -117,30 +124,31 @@ main {
   margin-left: 1em;
 }
 
-/* User Name */
+/* user name */
 .name {
   font-weight: 300;
   margin-left: 5px;
 }
 
-/* User Handle */
+/* user handle */
 .handle {
   font-weight: 400;
   color: turquoise;
 }
 
-/* Tweet Contents */
+/* tweet contents */
 .content {
   margin-left: 1em;
   font-weight: 400;
+  word-break: break-word;
 }
 
-/* User Icon */
+/* user icon */
 .fa-user-astronaut {
   font-size: 30px;
 }
 
-/* Social Icons */
+/* social icons */
 .fa-flag:hover, .fa-retweet:hover, .fa-heart:hover {
   color: #D29FFF; 
 }

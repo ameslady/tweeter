@@ -9,13 +9,13 @@
   flex-direction: column;
 }
 
-/* Header Image */
+/* header image */
 #header img {
   margin-top: 140px;
   width: 190px;
   height: auto;
 }
-/* Header Name */
+/* header name */
 #header h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
