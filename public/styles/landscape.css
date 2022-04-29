@@ -16,25 +16,16 @@
   #header {
     border: 2px solid #2F2B34;
     border-radius: 5px;
-    /* min-width:  */
+    min-width: 400px;
+    height: 400px;
     margin: 60px 60px;
-    padding: 20px 0px 100px;
+    padding: 15px 0px 100px;
     display: flex;
-    flex-shrink: 3;
+    flex-shrink: 4;
    }
 
   main {
     display: relative;
     margin-right: 60px;
-    /* width: 100%; */
    } 
-
-  .new-tweet {
-    width: 100%;
-  }
-
-  #tweets-container {
-    width: 100%;
-  }
-
 }

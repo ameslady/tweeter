@@ -23,4 +23,5 @@ This repository is the starter code for the project: Students will fork and clon
 * Deal with XXS
 * Fix jankyness of slideUp() and slideDown() for error msg
 * Clean up CSS styling
+* Pin footer to bottom
 
