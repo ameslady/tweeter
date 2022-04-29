@@ -3,7 +3,7 @@ $(document).ready(function() {
   const textarea = $("#tweet-text");
   const total = $(".counter").html();
 
-  textarea.on('keyup', function() {
+  textarea.on('input', function() {
     const valueLength = $(this).val().length;
     const output = $(this).parent().find(".counter");
     const remaining = total - valueLength;
