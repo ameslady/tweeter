@@ -1,4 +1,5 @@
 main {
+  font-family: 'Source Sans Pro', sans-serif;
   width: 90vw;
   margin: 0 auto;
   padding: 25px 0px 100px;
@@ -9,33 +10,36 @@ main {
 
 /* Error Message */
 .alert {
-  display: block !important;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   background-color: rgb(241, 153, 153);
   color: white;
   border-left: 5px solid red;
+  border-radius: 5px;
   padding: 7px;
-  width: 900px;
+  width: 75%;
 }
+
 .alert.hidden {
  display: none !important;
 }
 
 /* NEW TWEET STYLING  */
 
-/* "Compose Tweet" Heading  */
+.new-tweet {
+  width: 75%
+}
+
+/* Compose Tweet Heading  */
 .new-tweet h2 {
   font-family: 'Bungee', sans-serif;
 }
 
 /* Tweet Input Field  */
 .new-tweet textarea {
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-style: italic;
   height: 37px;
-  width: 900px;
+  width: 100%;
   background: transparent;
   border: none;
   border-bottom: 4px solid #2F2B34;
@@ -54,9 +58,10 @@ main {
   color: white;
   background-color: turquoise;
   border: 2px solid #2F2B34;
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 7px;
 }
+
 .new-tweet button:hover {
   box-shadow: 0px 5px 10px lightgray;
   transform: translateY(-1px);
@@ -67,18 +72,21 @@ main {
   font-family: 'Bungee', sans-serif;
   font-style: bold;
 }
+
 .red {
   color: red;
 }
 
 /* TWEET CARD STYLING */
 
+#tweets-container {
+  width: 75%;
+}
+
 .tweet {
-  font-family: 'Source Sans Pro', sans-serif;
   background-color: #2F2B34;
   color: white;
   border-radius: 5px;
-  width: 900px;
   padding: 1em;
 }
 
@@ -109,24 +117,24 @@ main {
 }
 
 /* User Name */
-.tweet.name {
+.name {
   font-weight: 300;
   margin-left: 5px;
 }
 
 /* User Handle */
-.tweet.handle {
+.handle {
   font-weight: 400;
   color: turquoise;
 }
 
 /* Tweet Contents */
-.tweet.content {
+.content {
   margin-left: 1em;
   font-weight: 400;
 }
 
-/* User Icons */
+/* User Icon */
 .fa-user-astronaut {
   font-size: 30px;
 }
@@ -134,5 +142,4 @@ main {
 /* Social Icons */
 .fa-flag:hover, .fa-retweet:hover, .fa-heart:hover {
   color: #D29FFF; 
-  
 }
