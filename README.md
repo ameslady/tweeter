@@ -28,9 +28,4 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## To-do
 
-* Deal with XXS
-* Fix jankyness of slideUp() and slideDown() for error msg
-* Pin footer to bottom, hide until scroll down
-* Make error message appear under textarea
-* Maintain heart button colour when clicked
-* Do stretch tasks
+* Complete stretch tasks
