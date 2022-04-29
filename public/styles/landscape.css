@@ -24,6 +24,11 @@
     flex-shrink: 3;
    }
 
+   #header img {
+    margin-left: auto;
+    margin-right: auto;
+   }
+
   main {
     display: relative;
     margin-right: 60px;
