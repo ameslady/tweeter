@@ -6,8 +6,8 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Final Product
 
-![Mobile View ](docs/desktop.png?raw=true "Desktop View")
-![Desktop View](docs/mobile.png?raw=true "Mobile View")
+![Mobile View ](public/docs/desktop.png?raw=true "Desktop View")
+![Desktop View](public/docs/mobile.png?raw=true "Mobile View")
 
 
 ## Dependencies
